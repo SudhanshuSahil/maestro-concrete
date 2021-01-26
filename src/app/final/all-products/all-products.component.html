@@ -1,0 +1,558 @@
+<div class="page-header page-header-small" style="background-image: url('./assets/img/sections/gerrit-vermeulen.jpg');">
+    <div class="filter filter-secondary"></div>
+    <div class="content-center">
+        <div class="container">
+            <h1>Products Page</h1>
+            <h3>Contact us for price quotes</h3>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+
+    <div class="section latest-offers">
+        <div class="container">
+            <h3 class="section-title">Highlighted Products</h3>
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-product card-plain">
+                            <div class="card-image">
+                                <a href="javascript:void(0)">
+                                    <img src="https://media.istockphoto.com/photos/construction-worker-laying-interlocking-paving-concrete-onto-sheet-picture-id1085601180" alt="Rounded Image" class="img-rounded img-responsive">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-description">
+                                        <h5 class="card-title">Paver Blocks</h5>
+                                        <p class="card-description">This is a limited edition dress for the fall collection. Comes in 3 colours.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-plain card-product">
+                            <div class="card-img-top">
+                                <a href="#">
+                                    <img class="img" src="https://content.jdmagicbox.com/comp/def_content/brick-dealers/shutterstock-462881602-brick-dealers-1-x6ohh.jpg?clr=4a4a1c" />
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-description">
+                                    <h5 class="card-title">Bricks</h5>
+                                    <p class="card-description">This is a limited edition dress for the fall collection. Comes in 3 colours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-product card-plain">
+                            <div class="card-image">
+                                <a href="javascript:void(0)">
+                                    <img src="assets/img/tile.webp" alt="Rounded Image" class="img-rounded img-responsive">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-description">
+                                        <h5 class="card-title">Tiles</h5>
+                                        <p class="card-description">This is a limited edition dress for the fall collection. Comes in 3 colours.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-gray">
+        <div class="container">
+            <h3 class="section-title">Find what you need</h3>
+            <div class="row">
+                    <div class="col-md-3">
+                        <div class="card card-refine">
+                            <ngb-accordion #acc="ngbAccordion" activeIds="config-panel-one">
+                                <!-- <ngb-panel id="config-panel-one">
+                                    <ng-template ngbPanelTitle>
+                                        <h5 class="mb-0 panel-title">
+                                            <a class="collapsed">
+                                                Price Range
+                                                <i class="nc-icon nc-minimal-down"></i>
+                                            </a>
+                                        </h5>
+                                    </ng-template>
+                                    <ng-template ngbPanelContent>
+                                        <nouislider class="slider slider-info" [connect]="true" [min]="0" [max]="10000" [step]="10" [(ngModel)]="doubleSlider" [tooltips]="true"></nouislider>                                </ng-template>
+                                </ngb-panel> -->
+                                <!-- <ngb-panel>
+                                    <ng-template ngbPanelTitle>
+                                        <h5 class="mb-0 panel-title">
+                                            <a class="collapsed">
+                                                Clothing
+                                                <i class="nc-icon nc-minimal-down"></i>
+                                            </a>
+                                        </h5>
+                                    </ng-template>
+                                    <ng-template ngbPanelContent>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="" checked>
+                                                Blazers
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Casual Shirts
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Formal Shirts
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Jeans
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Polos
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Pyjamas
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Shorts
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Trousers
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                    </ng-template>
+                                </ngb-panel> -->
+                                <!-- <ngb-panel>
+                                    <ng-template ngbPanelTitle>
+                                        <h5 class="mb-0 panel-title">
+                                            <a class="collapsed">
+                                                Designer
+                                                <i class="nc-icon nc-minimal-down"></i>
+                                            </a>
+                                        </h5>
+                                    </ng-template>
+                                    <ng-template ngbPanelContent>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="" checked>
+                                                All
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Acne Studio
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Alex Mill
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Alexander McQueen
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Alfred Dunhill
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                AMI
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Berena
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Berluti
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Burberry Prorsum
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Berluti
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Calvin Klein
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Club Monaco
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Dolce & Gabbana
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Gucci
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Kolor
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Lanvin
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Loro Piana
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="">
+                                                Massimo Alba
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                    </ng-template>
+                                </ngb-panel> -->
+                                <ngb-panel>
+                                    <ng-template ngbPanelTitle>
+                                        <h5 class="mb-0 panel-title">
+                                            <a class="collapsed">
+                                                Filter By Type
+                                                <i class="nc-icon nc-minimal-down"></i>
+                                            </a>
+                                        </h5>
+                                    </ng-template>
+                                    <ng-template ngbPanelContent>
+                                        <div class="form-check-radio">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="radio" [(ngModel)]="radio" (change)="change()" name="exampleRadios" id="exampleRadios1" value="0" checked>
+                                                All
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check-radio">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="radio" [(ngModel)]="radio" (change)="change()" name="exampleRadios" id="exampleRadios2" value="1">
+                                                Paver Blocks
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+
+                                        <div class="form-check-radio">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="radio" [(ngModel)]="radio" (change)="change()" name="exampleRadios" id="exampleRadios3" value="2">
+                                                Bricks
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+
+                                        <div class="form-check-radio">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="radio" [(ngModel)]="radio" (change)="change()" name="exampleRadios" id="exampleRadios4" value="3">
+                                                Tiles
+                                                <span class="form-check-sign"></span>
+                                            </label>
+                                        </div>
+                                    </ng-template>
+                                </ngb-panel>
+                            </ngb-accordion>
+                        </div> <!-- end card -->
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="products">
+                            <div class="row">
+                                <div *ngFor="let product of product_list" class="col-md-4 col-sm-4">
+                                    <div class="card card-product card-plain">
+                                        <div class="card-image">
+                                            <a href="javascript:void(0)">
+                                                <img src="{{product.image}}" alt="Rounded Image" class="img-rounded img-responsive">
+                                            </a>
+                                            <div class="card-body">
+                                                <div class="card-description">
+                                                    <h5 class="card-title">{{product.name}}</h5>
+                                                    <p class="card-description">{{product.category.name}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-3 offset-md-4">
+                                    <button rel="tooltip" title="This is a morphing button" class="btn btn-round btn-outline-default" id="successBtn" data-toggle="morphing" data-rotation-color="gray">Load more...</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="section section-blog">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="javascript:void(0)">
+                                    <img class="img img-raised" src="./assets/img/sections/miguel-perales.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-category text-info">Enterprise</h6>
+                                <h5 class="card-title">
+                                    <a href="javascript:void(0)">LinkedIn’s new desktop app arrives</a>
+                                </h5>
+                                <p class="card-description">
+                                    LinkedIn is today launching its official desktop application for Windows 10, allowing the professional social networking service to... <br>
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="javascript:void(0)">
+                                        <img src="./assets/img/faces/ayo-ogunseinde-2.jpg" alt="..." class="avatar img-raised">
+                                        <span>Mike John</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="javascript:void(0)">
+                                    <img class="img img-raised" src="./assets/img/sections/roger-keller.jpg">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-category text-success">
+                                    Startups
+                                </h6>
+                                <h5 class="card-title">
+                                    <a href="javascript:void(0)">MIT’s Cheetah 3 robot is built to save lives</a>
+                                </h5>
+                                <p class="card-description">
+                                    The latest version of MIT’s Cheetah robot made its stage debut today at TC Sessions: Robotics in Cambridge, Mass. It’s a familiar project... <br>
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="javascript:void(0)">
+                                        <img src="./assets/img/faces/kaci-baum-2.jpg" alt="..." class="avatar img-raised">
+                                        <span>Nickie Kelly</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="javascript:void(0)">
+                                    <img class="img img-raised" src="./assets/img/sections/joshua-earlesz.jpg">
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+                                <h6 class="card-category text-danger">
+                                    <i class="fa fa-free-code-camp" aria-hidden="true"></i> Enterprise
+                                </h6>
+                                <h5 class="card-title">
+                                    <a href="javascript:void(0)">Lionel Richie says “Hello” to startup investors</a>
+                                </h5>
+                                <p class="card-description">
+                                    Because developing a doctor-on-demand service that would allow personalized medical visits, booked through an app on a user’s phone is... <br>
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="javascript:void(0)">
+                                        <img src="./assets/img/faces/erik-lucatero-2.jpg" alt="..." class="avatar img-raised">
+                                        <span>Mike John</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div> -->
+
+
+    <div class="subscribe-line subscribe-line-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-8">
+                    <form class="">
+                        <div class="form-group">
+                            <input type="text" value="" class="form-control" placeholder="Enter your email...">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <button type="button" class="btn btn-neutral btn-block btn-lg">Send Brochure</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer footer-big">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-9">
+                <div class="links">
+                    <ul class="uppercase-links">
+                        <li>
+                            <a href="javascript:void(0)">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                Company
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                Team
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                Contact
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <hr />
+
+                    <div class="copyright">
+                        © {{data | date: 'yyyy'}}, Maestro Concrete
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 ml-auto col-sm-2">
+                <div class="social-area">
+                    <a href="javascript:void(0)" class="btn btn-neutral btn-round btn-just-icon btn-facebook">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)" class="btn btn-neutral btn-just-icon btn-round btn-twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="javascript:void(0)" class="btn btn-neutral btn-just-icon btn-round btn-google">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                    </a>
+                    <a href="#pin" class="btn btn-neutral btn-just-icon btn-round btn-pinterest">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+</div> <!-- wrapper -->
